@@ -1,0 +1,56 @@
+.header
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  z-index: 99
+  padding: 0
+  background: url('../img/header/bg-header.png') no-repeat center / cover
+  &__container
+    display: flex
+    justify-content: space-between
+.logo
+  display: flex
+  flex-direction: row 
+  align-items: center
+  &__text
+    display: flex
+    flex-direction: column
+    margin-left: 24px
+  &__title
+    font-size: 25px
+    font-weight: 700
+    line-height: 21px
+    color: #393939
+    text-transform: uppercase
+    text-decoration: none
+    margin-bottom: 3px
+  &__subtitle
+    font-size: 11px
+    font-weight: 300
+    line-height: 13.55px
+    color: #f64747
+    text-decoration: none
+.contacts
+  display: flex
+  flex-direction: column  
+  justify-content: center
+  align-items: flex-end
+  &__phone
+    font-size: 24px
+    font-weight: 400
+    line-height: 21px
+    color: #393939
+    text-decoration: none
+    &--small
+      font-size: 16px
+  &__link
+    display: flex
+    align-items: center
+    &-text
+      font-size: 14px
+      font-weight: 300
+      line-height: 13.55px
+      color: #f64747
+      text-decoration: none
+      border-bottom: 1px dashed #f64747

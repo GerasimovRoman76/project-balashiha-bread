@@ -340,4 +340,117 @@ template {
 [hidden] {
   display: none;
 }
+
+.container {
+  width: 85%;
+  max-width: 1042px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 0;
+  background: url("../img/header/bg-header.png") no-repeat center/cover;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 24px;
+}
+
+.logo__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #393939;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+
+.logo__subtitle {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13.55px;
+  color: #f64747;
+  text-decoration: none;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contacts__phone {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #393939;
+  text-decoration: none;
+}
+
+.contacts__phone--small {
+  font-size: 16px;
+}
+
+.contacts__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__link-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 13.55px;
+  color: #f64747;
+  text-decoration: none;
+  border-bottom: 1px dashed #f64747;
+}
 /*# sourceMappingURL=style.css.map */
