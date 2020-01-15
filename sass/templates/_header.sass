@@ -5,7 +5,7 @@
   width: 100%
   z-index: 99
   padding: 0
-  background: url('../img/header/bg-header.png') no-repeat center / cover
+  background: $pink url('../img/header/bg-header.png') no-repeat center / cover
   &__container
     display: flex
     justify-content: space-between
@@ -13,22 +13,27 @@
   display: flex
   flex-direction: row 
   align-items: center
+  &__image
+    max-width: 7.785rem
+    margin-bottom: -1.571rem
   &__text
+    min-width: 14.857rem
     display: flex
     flex-direction: column
-    margin-left: 24px
+    margin-left: 1.714rem
   &__title
-    font-size: 25px
-    font-weight: 700
-    line-height: 21px
-    color: #393939
-    text-transform: uppercase
-    text-decoration: none
-    margin-bottom: 3px
+
+    // font-size: 25px
+    // font-weight: 700
+    // line-height: 21px
+    // color: #393939
+    // text-transform: uppercase
+    // text-decoration: none
+    // margin-bottom: 3px
   &__subtitle
-    font-size: 11px
+    font-size: 0.785rem
     font-weight: 300
-    line-height: 13.55px
+    line-height: 0.967rem
     color: #f64747
     text-decoration: none
 .contacts
@@ -37,20 +42,32 @@
   justify-content: center
   align-items: flex-end
   &__phone
-    font-size: 24px
+    font-size: 1.714rem
     font-weight: 400
-    line-height: 21px
+    line-height: 1.5rem 
     color: #393939
     text-decoration: none
+    margin-bottom: 9px
+    transition: 0.2s
+    &:hover
+      color: $light
     &--small
-      font-size: 16px
+      font-size: 1.142rem 
   &__link
     display: flex
     align-items: center
     &-text
-      font-size: 14px
+      font-size: 1rem
       font-weight: 300
-      line-height: 13.55px
+      line-height: 0.967rem
       color: #f64747
       text-decoration: none
       border-bottom: 1px dashed #f64747
+      margin-left: 4px
+      transition: 0.2s
+      &:hover
+        color: $light
+        border-bottom: 1px dashed $light
+.arrow
+  &__icon
+    margin-left: 4px

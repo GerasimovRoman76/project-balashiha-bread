@@ -347,6 +347,24 @@ template {
   margin: 0 auto;
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
 .header {
   position: fixed;
   left: 0;
@@ -354,7 +372,7 @@ template {
   width: 100%;
   z-index: 99;
   padding: 0;
-  background: url("../img/header/bg-header.png") no-repeat center/cover;
+  background: #fff9e6 url("../img/header/bg-header.png") no-repeat center/cover;
 }
 
 .header__container {
@@ -379,7 +397,13 @@ template {
           align-items: center;
 }
 
+.logo__image {
+  max-width: 7.785rem;
+  margin-bottom: -1.571rem;
+}
+
 .logo__text {
+  min-width: 14.857rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,23 +411,13 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 24px;
-}
-
-.logo__title {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 21px;
-  color: #393939;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-bottom: 3px;
+  margin-left: 1.714rem;
 }
 
 .logo__subtitle {
-  font-size: 11px;
+  font-size: 0.785rem;
   font-weight: 300;
-  line-height: 13.55px;
+  line-height: 0.967rem;
   color: #f64747;
   text-decoration: none;
 }
@@ -425,15 +439,22 @@ template {
 }
 
 .contacts__phone {
-  font-size: 24px;
+  font-size: 1.714rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.5rem;
   color: #393939;
   text-decoration: none;
+  margin-bottom: 9px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.contacts__phone:hover {
+  color: #ffffff;
 }
 
 .contacts__phone--small {
-  font-size: 16px;
+  font-size: 1.142rem;
 }
 
 .contacts__link {
@@ -446,11 +467,23 @@ template {
 }
 
 .contacts__link-text {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 300;
-  line-height: 13.55px;
+  line-height: 0.967rem;
   color: #f64747;
   text-decoration: none;
   border-bottom: 1px dashed #f64747;
+  margin-left: 4px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.contacts__link-text:hover {
+  color: #ffffff;
+  border-bottom: 1px dashed #ffffff;
+}
+
+.arrow__icon {
+  margin-left: 4px;
 }
 /*# sourceMappingURL=style.css.map */
