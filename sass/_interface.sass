@@ -1,0 +1,17 @@
+.button
+  font-family: 'Roboto', sans-serif 
+  border: none
+  border-radius: 1px
+  text-transform: uppercase
+  outline: none
+  &:hover
+    cursor: pointer
+  &--outline
+    border: 1px solid $active
+    background-color: transparent
+    color: $active
+    transition: 0.2s
+    &:hover
+      background-color: $active
+      color: $light
+      border: 1px solid transparent
