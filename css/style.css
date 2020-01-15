@@ -702,4 +702,14 @@ img {
   -webkit-filter: none;
           filter: none;
 }
+
+.ymap {
+  background-color: #ffffff;
+}
+
+.ymap-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
