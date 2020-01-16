@@ -13,6 +13,7 @@
   &__content
     display: flex
     justify-content: space-between
+    align-items: flex-end
   &__title
     max-width: 69.285rem
     margin: 0 auto
@@ -31,7 +32,40 @@
       line-height: 2.428rem
   &__advantages
     max-width: 46.428rem
-    &-image
-      max-width: 14.14rem
+    display: flex
+    justify-content: space-between    
   &-form
     max-width: 21.5rem
+    background-color: $bright
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border: 5px solid #fdf1cf
+    &__title
+      font-family: 'Roboto Condensed', sans-serif
+      font-size: 1.5rem
+      font-weight: bold
+      line-height: 1.571rem
+      color: #fdf1cf
+      text-transform: uppercase
+      margin: 25px auto 23px
+    &__subtitle
+      font-size: 1.285rem
+    &__button
+      margin-top: 14px
+      padding: 22px 59px
+  &__input
+    margin-bottom: 6px
+  &__policy
+    max-width: 253px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 12px 19px 24px 19px
+    &-text
+      font-size: 11px
+      font-weight: 300
+      line-height: 11px
+      color: $light
+      text-align: center

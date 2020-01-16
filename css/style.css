@@ -367,6 +367,55 @@ template {
   border: 1px solid transparent;
 }
 
+.button__form {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 13.55px;
+  text-transform: uppercase;
+  background-color: #12edc9;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09);
+  color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.button__form:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #ffffff;
+  color: #12edc9;
+  border: 1px solid #12edc9;
+}
+
+.input {
+  width: 17.928rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 0.967rem;
+  outline: none;
+  padding: 17px 100px 17px 15px;
+}
+
+.input::-webkit-input-placeholder {
+  color: #2f2f2f;
+}
+
+.input:-ms-input-placeholder {
+  color: #2f2f2f;
+}
+
+.input::-ms-input-placeholder {
+  color: #2f2f2f;
+}
+
+.input::placeholder {
+  color: #2f2f2f;
+}
+
 .container {
   width: 85%;
   max-width: 1042px;
@@ -578,6 +627,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .hero__title {
@@ -604,14 +656,76 @@ img {
 
 .hero__advantages {
   max-width: 46.428rem;
-}
-
-.hero__advantages-image {
-  max-width: 14.14rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero-form {
   max-width: 21.5rem;
+  background-color: #f64747;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #fdf1cf;
+}
+
+.hero-form__title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.571rem;
+  color: #fdf1cf;
+  text-transform: uppercase;
+  margin: 25px auto 23px;
+}
+
+.hero-form__subtitle {
+  font-size: 1.285rem;
+}
+
+.hero-form__button {
+  margin-top: 14px;
+  padding: 22px 59px;
+}
+
+.hero__input {
+  margin-bottom: 6px;
+}
+
+.hero__policy {
+  max-width: 253px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 12px 19px 24px 19px;
+}
+
+.hero__policy-text {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 11px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .advantages {
