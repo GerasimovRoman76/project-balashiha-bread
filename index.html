@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Дипломный проект веб-старт</title>
 </head>
@@ -74,7 +75,59 @@
       <!-- /.container --> 
     </section>
     <!-- /.hero -->
-    <section class="fotos"></section>
+    <section class="fotos">
+      <div class="container fotos__container">
+        <div class="section-title fotos__section-title">
+          <h2 class="section-title__heading">фотографии нашего завода</h2>
+          <div class="section-title__image">
+            <img src="img/advantages/icon-heading.svg" alt="колос">
+          </div>
+        </div>
+        <!-- /.section-title fotos__section-title -->
+        <div class="row fotos__row">
+          <div class="fotos__col-slaider">
+            <img src="img/fotos/bg-fotos.png" alt="" class="fotos__bg">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="img/fotos/slider-foto-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/fotos/slider-foto-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/fotos/slider-foto-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/fotos/slider-foto-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/fotos/slider-foto-1.jpg" alt="">
+                </div>
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <!-- /.col-60 -->
+          <div class="fotos__col-text">
+            <p class="fotos__text">Мы изготавливаем хлеб на ОАО «Балашиха Хлеб». Это одно из крупнейших предприятий пищевой промышленности Московского региона, входящее в тройку ведущих производителей хлебобулочной продукции.</p>
+ 
+            <p class="fotos__text">Мощности комбината изо дня в день модернизируются, позволяя сохранять неизменно высокий уровень качества. Наше оборудование – из России, Чехии, Германии, Голландии и Франции. Наша гордость – наша продукция, которая давно стала визитной карточкой края.
+            А это – более 100 видов хлебобулочных изделий, которые ежедневно попадают на стол наших покупателей</p>
+          </div>
+          <!-- /.col-40 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container fotos__container -->
+    </section>
     <!-- /.fotos -->
     <section class="video"></section>
     <!-- /.video -->
@@ -294,7 +347,9 @@
       <!-- .ymap-container -->
     </section>
   </main>
-    
-    
+   
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script> 
 </body>
 </html>

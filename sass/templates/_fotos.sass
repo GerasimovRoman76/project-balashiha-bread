@@ -1,0 +1,45 @@
+.fotos
+  background-color: $pink
+  padding: 48px 0 58px 0
+  &__row
+    position: relative
+    margin-top: 15px
+  &__col-slaider
+    max-width: 40.42rem
+  &__col-text
+    max-width: 27rem  
+    font-size: 16px
+    font-weight: 300
+    line-height: 23px
+  &__bg
+    position: absolute
+    left: -18rem
+
+.swiper
+  &-pagination
+    &-bullet
+      background-color: $light
+      border-radius: 0  
+      &-active
+        background-color: #e74c3c
+  &-button
+    &-prev
+      left: 230px
+      bottom: 25px
+      top: auto
+      background: url('../img/fotos/arrow-prev.png') no-repeat center
+      width: 7px
+      height: 13px
+      &::after
+        display: none
+    &-next
+      right: 230px
+      bottom: 25px
+      top: auto
+      background: url('../img/fotos/arrow-next.png') no-repeat center
+      width: 7px
+      height: 13px
+      &::after
+        display: none
+.swiper-container-horizontal>.swiper-pagination-bullets
+  bottom: 23px
