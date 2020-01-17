@@ -1,2 +1,37 @@
 .offer
   background: $pink url('../img/bg-offer.png') no-repeat center / cover
+  padding: 53px 0 41px 0
+  &-form
+    max-width: 800px
+    margin: auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &__button
+      max-width: 251px
+      margin: auto
+      margin-top: 24px
+      margin-bottom: 12px
+      padding: 20px 36px
+      background-color: #0dab92
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09)
+      &:hover
+        transition: 0.2s
+        background-color: $light
+        color: #0dab92
+        border: 1px solid #0dab92
+  &__input
+    &-group
+      display: flex
+      justify-content: space-between
+      margin-top: 28px
+  &__policy
+    max-width: 253px
+    margin: auto
+    display: flex
+    &-text
+      font-size: 11px
+      font-weight: 300
+      line-height: 11px
+      color: $light
+      text-align: center

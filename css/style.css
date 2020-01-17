@@ -372,23 +372,13 @@ template {
   font-weight: bold;
   line-height: 13.55px;
   text-transform: uppercase;
-  background-color: #12edc9;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09);
   color: #ffffff;
   border-radius: 2px;
   border: 1px solid transparent;
 }
 
-.button__form:hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  background-color: #ffffff;
-  color: #12edc9;
-  border: 1px solid #12edc9;
-}
-
 .input {
-  width: 17.928rem;
+  max-width: 17.928rem;
   background-color: #ffffff;
   border: none;
   border-radius: 2px;
@@ -397,7 +387,7 @@ template {
   font-weight: 300;
   line-height: 0.967rem;
   outline: none;
-  padding: 17px 100px 17px 15px;
+  padding: 14px 100px 14px 15px;
 }
 
 .input::-webkit-input-placeholder {
@@ -702,6 +692,16 @@ img {
 .hero-form__button {
   margin-top: 14px;
   padding: 22px 59px;
+  background-color: #12edc9;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+.hero-form__button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #ffffff;
+  color: #12edc9;
+  border: 1px solid #12edc9;
 }
 
 .hero__input {
@@ -897,6 +897,66 @@ img {
 
 .offer {
   background: #fff9e6 url("../img/bg-offer.png") no-repeat center/cover;
+  padding: 53px 0 41px 0;
+}
+
+.offer-form {
+  max-width: 800px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.offer-form__button {
+  max-width: 251px;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  padding: 20px 36px;
+  background-color: #0dab92;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+.offer-form__button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #ffffff;
+  color: #0dab92;
+  border: 1px solid #0dab92;
+}
+
+.offer__input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 28px;
+}
+
+.offer__policy {
+  max-width: 253px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offer__policy-text {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 11px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .ymap {
