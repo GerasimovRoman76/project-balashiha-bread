@@ -603,6 +603,7 @@ img {
           justify-content: center;
   background: #ffffff url("../img/hero/bg.png") no-repeat center/89rem;
   height: 100vh;
+  padding-bottom: 70px;
 }
 
 .hero__container {
@@ -662,6 +663,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: -18px;
 }
 
 .hero-form {
@@ -891,6 +893,10 @@ img {
 .gallery__image:hover {
   -webkit-filter: none;
           filter: none;
+}
+
+.offer {
+  background: #fff9e6 url("../img/bg-offer.png") no-repeat center/cover;
 }
 
 .ymap {
